@@ -24,7 +24,7 @@ public class string_lev2_220603 {
                     lenCnt++;
                     remainStr -= end;
                 }else{
-                    len = lenCnt + ; // 달라졌을 때 길이 저장
+                    len = lenCnt +3 ; // 달라졌을 때 길이 저장
                     startStr = nextStr; //비교대상 변경
                     lenCnt = 0;
                 }

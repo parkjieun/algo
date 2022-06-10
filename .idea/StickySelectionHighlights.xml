@@ -78,6 +78,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/sort/ddd.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pgm/src/sort/sort_lev1_210714.java">
           <value>
             <PaintGroupHighlightMap />
@@ -89,6 +94,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/sort/sort_lev1_210714ssss.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/sort/sort_lev2_210728.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/sort/ss.xml">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/sort/web.xml">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -114,6 +134,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/stackQueue/stackQueue_lev2_210728.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/string/string_lev2_210603.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/string/string_lev2_220603.java">
           <value>
             <PaintGroupHighlightMap />
           </value>
