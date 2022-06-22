@@ -1,111 +1,48 @@
 package sort;
 
-import com.sun.management.VMOption;
-import jdk.nashorn.internal.objects.annotations.Getter;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
-import static java.lang.String.*;
+import java.util.*;
 
 //동일한 숫자가 입력될 수 있다.
 //테스트케이스 부족
 public class sort_lev2_220621 {
-    public static void main(String[] args) {
-//        999 9 34 3 30 1 1000 0
-//        9 999 34 3 30 1 1000 0
-        //{34, 342} 34234 < 34342
-        //{3, 330} 3303 < 3330
-        //a,b
-        //c= b.substring(a.length,a.length+1)
-        //a > c 내림차순
-        //{3, 300} 3003 < 3300
-        //{3, 30} 303 < 330
-        //{3, 34} 343 > 334
-        //{4, 43} 434 < 443
-        //{40, 403} 40340 < 40403
-        //{40, 404}
-        //{40, 405} 40540 > 40405
-        //{12, 121} 12112  > 12121
-        //{2, 22, 223}
-        //{21, 212}
-        //{41, 415}
-        //{0, 0, 0, 0}
+    public static void main(String[] args) {//21,212], [30,303
+        int[] numbers = { 34 , 3, 30};
+        String[] nums = new String[numbers.length];
 
-        int[] numbers = {  30  ,    34, 3};
-        Arrays.sort(numbers); //3, 30 ,34
-        String answer = "";
-        List<Pair> list = new ArrayList<>();
-        for(int cur : numbers){
-            int len = valueOf(cur).length();
-
-            if(cur<10) cur*=1000;
-            else if(cur<100) cur*=100;
-            else if(cur<1000) cur*=10;
-
-            Pair p = new Pair(valueOf(cur==0?"0000":cur),len);
-            list.add(p);
+        for (int i = 0; i < numbers.length; i++) {
+            nums[i] = String.valueOf(numbers[i]);
         }
-        Collections.sort(list);
-        StringBuilder sb = new StringBuilder();
-        boolean chk = true;
 
-        for(Pair p : list) {
-            String num = valueOf(p.num).substring(0,p.origin);
-            sb.append(num);
-            if(!num.equals("0")){
-                chk=false;
+        //Arrays.sort(nums, Comparator.reverseOrder()); 내림차순
+        Arrays.sort(nums, new Comparator<String>() {
+            @Override
+            public int compare(String  a, String b) {
+                //a: 3      30
+                //b : 34    3
+                String sum = a+b;
+                String reverseSum=b+a;
+
+                System.out.println("a +\", \"+b = " + a +", "+b);
+                return reverseSum.compareTo(sum);//내림차순 98-89 > 0 : 9(b)가 뒤로 이동
+                //return sum.compareTo(reverseSum);//오름차순 89-98 < 0 :  9(a)가 앞으로 이동
             }
-        }
-
-        System.out.println(chk?"0":sb.toString());
-    }
-
-    public static class Pair implements Comparable<Pair>{
-        String num;
-        int origin;
-
-        Pair(String num, int origin){
-            this.num = num;
-            this.origin = origin;
-        }
-
-        public String getNum(){
-            return num;
-        }
-
-
-        public int getOrigin(){
-            return origin;
-        }
-//3     30      34
-//3000  3000    3400
-        //30 3 34
-        @Override
-        public int compareTo(Pair o) {
-            String a = o.getNum(); //3 30
-            String b = this.getNum(); //30 34
-
-            //3000,2 3400,2
-            if(a.substring(0,1) != b.substring(0,1)){
-                return b-a;  // return값이 0이나 음수이면 자리바꿈을 하지 않고(내림차순정렬), 양수이면 자리바꿈을 수행(오름차순정렬)
+        });
+        String answer;
+ 
+        if ("0".equals(nums[0])) { // means "0000"
+            answer = "0";
+        } else {
+            StringBuilder sb = new StringBuilder();
+ 
+            for (String num : nums) {
+                sb.append(num);
             }
-            //3 32      3 34
-            //3|32      34|3
-            //32 321    32 324
-            //32|321    32432
-           if (a/1000 == b/1000) {//3000 3400
-               b = Integer.parseInt(getNum().substring(0, 1)); //3 3
-               a = Integer.parseInt(o.getNum().substring(o.getOrigin()-1, o.getOrigin()));//3 0
-                System.out.println("b = " + b); //0
-            }
-            return b-a;
+ 
+            answer = sb.toString();
         }
+        System.out.println("answer = " + answer);
     }
 }
-
 
 //
 // 0 또는 양의 정수가 주어졌을 때, 정수를 이어 붙여 만들 수 있는 가장 큰 수를 알아내 주세요.
