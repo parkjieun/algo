@@ -8,6 +8,21 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/bruteForce/bruteForce_lev2_220622.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/bruteForce/bruteForce_lev2_220622_2.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/bruteForce/bruteForce_lev2_220622_up.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/dfsBfs_lev1_210722.java">
           <value>
             <PaintGroupHighlightMap />
@@ -24,6 +39,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/dfsBfs_lev2_210722_up.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/dfs_test.java">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -114,6 +134,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/sort/sort_lev2_220621.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/sort/sort_test.java">
           <value>
             <PaintGroupHighlightMap />
           </value>
