@@ -48,6 +48,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/dfs_test2.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pgm/src/dp/dp_lev3_210723.java">
           <value>
             <PaintGroupHighlightMap />
@@ -59,6 +64,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/greedy/greedy_lev1_210721_up.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/greedy/greedy_lev2_220727.java">
           <value>
             <PaintGroupHighlightMap />
           </value>
