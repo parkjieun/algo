@@ -17,24 +17,24 @@ Comparator : 내림차순이나 특별한 기준에 따라 비교할 때 주로 
 음수 or 0 : 교환 X
 양수 : 교환 O
 
+첫 번째 매개변수가 더 작으면 음의정수, 같으면 0, 더 크면 양의정수를 반환시키도록 한다.	(오름차순)
+
  */
 public class sort_test {
     public static void main(String[] args) {
         String[] nums={"3", "30", "34", "5", "9"};
-        String[] nums2 = {"2","5","3"};
-        //Arrays.sort(nums);
-        System.out.println(Arrays.toString(nums)); //오름차순
 
-        //Arrays.sort(nums, Comparator.reverseOrder());
-        System.out.println(Arrays.toString(nums)); //오름차순
-
-        Arrays.sort(nums2, new Comparator<String>() {
+        Arrays.sort(nums); //오름차순
+        Arrays.sort(nums, Comparator.reverseOrder()); //내림차순
+        Arrays.sort(nums, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {  //o1:앞  o2:뒤
-                return o1.compareTo(o2);    //오름차순 2, 3, 5
+                return o1.compareTo(o2);                //오름차순
             }
         });
-        System.out.println(Arrays.toString(nums2)); 
+
+
+        System.out.println(Arrays.toString(nums));
 
     }
 }
