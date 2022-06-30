@@ -2,7 +2,7 @@ package bruteForce;
 
 import java.util.*;
 
-public class bruteForce_lev1_210717_up {
+public class pgm_bruteForce_lev1_210717_모의고사_up {
 	public static void main(String[] args) {
 
 		int[] answers= {1,3,2,4,2};

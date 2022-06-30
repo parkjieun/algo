@@ -2,7 +2,7 @@ package dfsBfs;
 
 import java.util.Arrays;
 
-public class dfsBfs_lev2_210722_up {
+public class pgm_dfsBfs_lev2_210722_타겟넘버_up {
     static int resultSum, arr[] ;
 
     public static void main(String[] args) {

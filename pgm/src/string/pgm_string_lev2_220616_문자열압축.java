@@ -1,6 +1,6 @@
 package string;
 //https://programmers.co.kr/learn/courses/30/lessons/60057
-public class string_lev2_220616 {
+public class pgm_string_lev2_220616_문자열압축 {
     public static void main(String[] args) {
         String s = "xababcdcdababcdcd";
         int len = s.length();

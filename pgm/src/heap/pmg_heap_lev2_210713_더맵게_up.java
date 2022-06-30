@@ -3,7 +3,7 @@ package heap;
 import java.util.PriorityQueue;
 
 
-public class heap_lev2_210713_up {
+public class pmg_heap_lev2_210713_더맵게_up {
     public static void main(String[] args) {
         int[] scoville = {1,2,3,9,10,12};
         int K = 7;

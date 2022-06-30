@@ -2,7 +2,7 @@ package hash;
 
 import java.util.*;
 
-public class hash_lev2_210723 {
+public class pgm_hash_lev2_210723_전화번호목록 {
     public static void main(String[] args) {
         String[] phone_book = {"41146", "411467"}; //41146 length: 5
         boolean answer = true;

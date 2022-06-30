@@ -4,7 +4,7 @@ import java.util.*;
 
 //동일한 숫자가 입력될 수 있다.
 //테스트케이스 부족
-public class sort_lev2_220621 {
+public class pgm_sort_lev2_220621_가장큰수 {
     public static void main(String[] args) {//21,212], [30,303
         int[] numbers = { 34 , 3, 30};
         String[] nums = new String[numbers.length];

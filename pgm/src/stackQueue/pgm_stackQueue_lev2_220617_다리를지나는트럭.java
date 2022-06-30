@@ -5,7 +5,7 @@ import java.util.Queue;
 
 //"일차선 다리"  & 다리에는 트럭이 최대 bridge_length대 올라갈 수 있으며 == 다리 길이
 //1초에 1칸씩 유추
-public class stackQueue_lev2_220617 {
+public class pgm_stackQueue_lev2_220617_다리를지나는트럭 {
     public static void main(String[] args) {
 
         int bridge_length=2, weight=10;

@@ -3,7 +3,7 @@ package stackQueue;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class stackQueue_lev2_220617_up {
+public class pgm_stackQueue_lev2_220617_다리를지나는트럭_up {
     public static void main(String[] args) {
         int bridge_length=2, weight=10;
         int[] truck_weights = {7,4,5,6};

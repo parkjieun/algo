@@ -3,7 +3,7 @@ package stackQueue;
 import java.util.*;
 
 
-public class stackQueue_lev2_210728 {
+public class pgm_stackQueue_lev2_210728_프린터 {
     public static void main(String[] args) {
         int[] priorities = {2, 1, 3, 2};
         int location = 2;

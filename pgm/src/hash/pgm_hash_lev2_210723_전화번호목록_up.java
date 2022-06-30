@@ -2,7 +2,7 @@ package hash;
 
 import java.util.Arrays;
 
-public class hash_lev2_210723_up {
+public class pgm_hash_lev2_210723_전화번호목록_up {
     public static void main(String[] args) {
         String[] phone_book = {"11", "13", "114", "125"};
         boolean answer = true;

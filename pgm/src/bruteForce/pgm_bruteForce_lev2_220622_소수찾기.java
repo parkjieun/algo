@@ -2,7 +2,7 @@ package bruteForce;
 
 import java.util.*;
 
-public class bruteForce_lev2_220622 {
+public class pgm_bruteForce_lev2_220622_소수찾기 {
 	static String[] arr;
 	static String[] result;
 	static boolean[] visited;

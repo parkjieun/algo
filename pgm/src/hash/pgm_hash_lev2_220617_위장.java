@@ -7,7 +7,7 @@ import java.util.HashMap;
 //a:2 b:1 c:2
 //3(사용안함포함)*2(사용안함포함)*3(사용안함포함) -1(전체사용안함)
 
-public class hash_lev2_220617 {
+public class pgm_hash_lev2_220617_위장 {
     public static void main(String[] args) {
         String[][] clothes = {{"yellowhat", "headgear"}, {"bluesunglasses", "headgear2"}, {"green_turban", "headgear"}};
         int answer = 1;

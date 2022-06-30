@@ -3,7 +3,7 @@ package bruteForce;
 import java.util.HashSet;
 import java.util.TreeSet;
 
-public class bruteForce_lev2_220622_up {
+public class pgm_bruteForce_lev2_220622_소수찾기_up {
 	static TreeSet<Integer> ts = new TreeSet<>();
 
 	public static void main(String[] args) {

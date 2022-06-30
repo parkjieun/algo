@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class greedy_lev1_210721 {
+public class pgm_greedy_lev1_210721_체육복 {
     public static void main(String[] args) {
         int n = 10; //학생수
         int[] lost = {5,4,3,2,1}; //잃어버린 학생

@@ -3,7 +3,7 @@ package hash;
 import java.util.HashMap;
 import java.util.Map;
 
-public class hash_lev1_210708 {
+public class pgm_hash_lev1_210708_완주하지못한선수 {
     public static void main(String[] args) {
         String[] participant = {"leo", "kiki", "eden"};
         String[] completion = {"eden", "kiki"};

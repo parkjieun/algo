@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 
-public class stackQueue_lev2_210712 {
+public class pgm_stackQueue_lev2_210712_기능개발 {
     public static void main(String[] args) {
         int[] progresses = {95, 90, 99, 99, 80, 99};
         int[] speeds = {1, 1, 1, 1, 1, 1};
