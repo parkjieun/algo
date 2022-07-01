@@ -148,6 +148,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/hash/hash_test.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pgm/src/hash/pgm_hash_lev2_210723_전화번호목록.java">
           <value>
             <PaintGroupHighlightMap />
@@ -188,6 +193,16 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/sort/UniqueNumbers.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/sort/Worker.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pgm/src/sort/ddd.java">
           <value>
             <PaintGroupHighlightMap />
@@ -199,6 +214,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/sort/pgm_sort_lev2_220621_가장큰수2.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/sort/pgm_sort_lev2_220701_HIndex.java">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -244,6 +264,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/sort/ss.xml">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/sort/test1.java">
           <value>
             <PaintGroupHighlightMap />
           </value>
