@@ -1,4 +1,4 @@
-package string;
+package test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,20 +8,19 @@ public class test22 {
     public static void main(String[] args) {
         String dartResult = "1S2D*3T"; 
         int answer = 0;
+        int temp = 0;
         char[] score = {'S', 'D', 'T'};//1 2 3
         char[] award = {'*','#'};  //2 -1
 
-        String reverse = "";
-        for (int i = dartResult.length() - 1; i >= 0; i--) {
-            reverse = reverse + dartResult.charAt(i);
-        }
-        //System.out.println("reverse = " + reverse); // T3 *D2 S1
-        
+
         List<String> list = new ArrayList<>();
         String s = "";
 
-        for (int i = 0; i < reverse.length(); i++) {
-            char c = reverse.charAt(i);
+        for (int i = 0; i < dartResult.length(); i++) {
+            char c = dartResult.charAt(i);
+            if(c>=48 && c<=57){//0(48) ~9(57)
+               answer = temp;
+            }
             if('S' == c) answer;
             else if('D' == c) answer
             if(award.contains(c)){
@@ -30,9 +29,7 @@ public class test22 {
 
             answer +=
 
-            if(c>=48 && c<=57){//0(48) ~9(57)
-                s="";
-            }
+
         }
 
 
