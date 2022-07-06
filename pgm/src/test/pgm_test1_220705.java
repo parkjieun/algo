@@ -3,7 +3,7 @@ package test;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class test1 {
+public class pgm_test1_220705 {
     public static void main(String[] args) {
         int a = 5;
         int b = 24;

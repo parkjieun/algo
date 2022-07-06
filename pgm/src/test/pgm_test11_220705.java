@@ -5,25 +5,25 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class test11 {
+public class pgm_test11_220705 {
     public static void main(String[] args) {
         int[] arr={ 9, 7};
         int divisor=1;
         //int[] answer = {};
         List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i]%divisor==0){
-                list.add(arr[i]);
+        for (int j : arr) {
+            if (j % divisor == 0) {
+                list.add(j);
             }
         }
         if(list.isEmpty()){
             list.add(-1);
         }
-        int[] answer = new int[list.size()];
-        for (int i = 0; i < answer.length; i++) {
-            answer[i] = list.get(i);
+        int[] answerArr = new int[list.size()];
+        for (int i = 0; i < answerArr.length; i++) {
+            answerArr[i] = list.get(i);
         }
-        Arrays.sort(answer);
+        Arrays.sort(answerArr);
 
         System.out.println("list = " +list);
 
