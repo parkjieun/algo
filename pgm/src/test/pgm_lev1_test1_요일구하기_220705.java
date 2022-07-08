@@ -1,9 +1,6 @@
 package test;
 
-import java.util.Arrays;
-import java.util.Collections;
-
-public class pgm_test1_220705 {
+public class pgm_lev1_test1_요일구하기_220705 {
     public static void main(String[] args) {
         int a = 5;
         int b = 24;

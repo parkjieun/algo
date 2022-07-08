@@ -23,6 +23,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/bruteForce/pgm_bruteForce_lev2_220708_카펫.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/dfsBfs_lev1_210722.java">
           <value>
             <PaintGroupHighlightMap />
@@ -398,12 +403,42 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/test/pgm_lev1_test1_220705.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/test/pgm_test11_220705.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/test/pgm_test22_220706.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/test/pgm_입문_test1_요일구하기_220705.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/test/pgm_입문_test2_다트게임_220706.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pgm/src/test/test1.java">
           <value>
             <PaintGroupHighlightMap />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/test/test11.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/test/test22.java">
           <value>
             <PaintGroupHighlightMap />
           </value>

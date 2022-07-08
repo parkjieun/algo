@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class pgm_test11_220705 {
+public class pgm_lev1_test1_220705 {
     public static void main(String[] args) {
         int[] arr={ 9, 7};
         int divisor=1;
@@ -26,7 +26,6 @@ public class pgm_test11_220705 {
         Arrays.sort(answerArr);
 
         System.out.println("list = " +list);
-
 
     }
 }

@@ -1,47 +1,63 @@
 package test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class test22 {
+//10D4S10D 케이스 실패
+//10이 나올경우, c2가 업데이트 안돼있음
+public class pgm_lev1_test2_다트게임_220706 {
     public static void main(String[] args) {
-        String dartResult = "1S2D*3T"; 
+        String dartResult = "10D4S10D";
         int answer = 0;
-        int temp = 0;
-        char[] score = {'S', 'D', 'T'};//1 2 3
-        char[] award = {'*','#'};  //2 -1
 
+        int pre = 0;
+        int num = 0;
+        for (int i = 0; i < dartResult.length()-1; i++) {
 
-        List<String> list = new ArrayList<>();
-        String s = "";
-
-        for (int i = 0; i < dartResult.length(); i++) {
             char c = dartResult.charAt(i);
-            if(c>=48 && c<=57){//0(48) ~9(57)
-               answer = temp;
+            char c2 =  dartResult.charAt(i+1);
+            //숫자
+            if(c>=48 && c<=57) { //0(48) ~9(57)
+                if (c == 49 && c2 == 48) { //10
+                    num = 10;
+                    i++;
+                    c2 = dartResult.charAt(i+1);    //10이 나올경우, c2가 업데이트 안돼있음
+                }else {
+                    num = c-48;
+                }
             }
-            if('S' == c) answer;
-            else if('D' == c) answer
-            if(award.contains(c)){
 
+            if(c2 == 'D'){
+                num= (int) Math.pow(num,2);
+            }else if(c2 == 'T'){
+                num= (int) Math.pow(num,3);
             }
+            i++;
 
-            answer +=
+            if(i+1 < dartResult.length()){
+                char c3 =  dartResult.charAt(i+1);
 
+                if(c3 == '*'){
+                  num = num*2; //해당점수와 바로 전 점수 *2
+                  pre = pre*2;
+                  i++;
+                }else if(c3 == '#'){
+                  num *= -1;
+                  i++;
+                }
+            }
+            answer += pre;
+            pre = num;
+            num = 0;
 
         }
-
-
-        System.out.println(list);
-
+        answer += pre +num;
+        System.out.println("***answer = " + answer);
     }
+
 }
 
 
 /*
 카카오톡 게임별의 하반기 신규 서비스로 다트 게임을 출시하기로 했다.
-다트 게임은 다트판에 다트를 세 차례 던져 그 점수의 합계로 실력을 겨루는 게임으로, 모두가 간단히 즐길 수 있다.@@@
+다트 게임은 다트판에 다트를 세 차례 던져 그 점수의 합계로 실력을 겨루는 게임으로, 모두가 간단히 즐길 수 있다.
 갓 입사한 무지는 코딩 실력을 인정받아 게임의 핵심 부분인 점수 계산 로직을 맡게 되었다. 다트 게임의 점수 계산 로직은 아래와 같다.
 
 다트 게임은 총 3번의 기회로 구성된다.
