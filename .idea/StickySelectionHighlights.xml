@@ -28,6 +28,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/bruteForce/pgm_bruteForce_lev2_220714_피로도.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/dfsBfs_lev1_210722.java">
           <value>
             <PaintGroupHighlightMap />
@@ -59,6 +64,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/pgm_dfsBfs_lev2_210722_타겟넘버.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/pgm_dfsBfs_lev3_220728_네트워크.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/pgm_dfsBfs_lev3_220728_네트워크Test.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/src/dfsBfs/pgm_dfsBfs_lev3_220729_단어변환.java">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -439,6 +459,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pgm/src/test/test22.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/test/dfsBfs/pgm_dfsBfs_lev3_220728_네트워크Test.java">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pgm/test/dfsBfs/pgm_dfsBfs_lev3_220729_단어변환Test.java">
           <value>
             <PaintGroupHighlightMap />
           </value>

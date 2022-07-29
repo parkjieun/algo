@@ -1,4 +1,4 @@
-package test;
+package test_test;
 
 public class pgm_lev1_test1_요일구하기_220705 {
     public static void main(String[] args) {

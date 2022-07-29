@@ -1,4 +1,4 @@
-package test;
+package test_test;
 
 //10D4S10D 케이스 실패
 //10이 나올경우, c2가 업데이트 안돼있음
