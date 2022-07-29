@@ -9,7 +9,8 @@ public class pgm_dfsBfs_lev3_220729_단어변환Test {
 
     @Test
     public void solution() {
-        assertEquals(4, p.solution("hit","cog", new String[]{"hot", "dot", "dog", "lot", "log", "cog"}));
+        //assertEquals(4, p.solution("hit","cog", new String[]{"hot", "dot", "dog", "lot", "log", "cog"}));
+        assertEquals(0, p.solution("coh","cog", new String[]{"cog"}));
     }
 
     @Test

@@ -41,7 +41,7 @@ public class pgm_dfsBfs_lev3_220729_단어변환 {
 
             //2-2. target 값 아니면, 한개만 변하는지 체크 + 방문체크
             for (int i = 0; i < words.length; i++) {
-                if(!visited[i] && check(word,target)){
+                if(!visited[i] && check(word,words[i])){
                     //2-2-1. true이면 q에 word값 넣기, 단계+1
                     q.offer(new Object[]{words[i],step+1});
                     visited[i] = true;
